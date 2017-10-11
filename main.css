@@ -1,0 +1,47 @@
+body {
+  background-color: #1abc9c;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+input[type='text'] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type='text']:focus {
+  width: 50%;
+}
+ul {
+  list-style: none;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+hr {
+  height: 2px;
+  background-color: black;
+}
